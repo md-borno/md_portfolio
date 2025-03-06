@@ -1,8 +1,8 @@
 
 .logo{
     margin: 20px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    /* height: 80px; */
     border-radius: 50px;
 }
 
@@ -184,9 +184,23 @@
   }
   .right{
     margin-left: -280px;
-    margin-top: -100px;
+    margin-top: -70px;
   }
   .left{
-    width: 50px;
+    margin-top: -100px;
   }
+  .h1-name{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .para{
+    text-align: center;
+    font-size: 20px;
+    width: fit-content;
+  }
+  .animation-container{
+    width: fit-content;
+  }
+
 }

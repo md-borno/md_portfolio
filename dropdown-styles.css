@@ -1,3 +1,4 @@
+
 .dropdown {
     position: fixed; /* Position absolutely */
     right: 20px; /* Move it to the right side */
@@ -61,3 +62,10 @@
 .dropdown-content a:hover {
     background-color: #ddd;
 }
+
+@media (max-width: 768px) {
+    .dropdown{
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+  }
