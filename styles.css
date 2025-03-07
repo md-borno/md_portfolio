@@ -585,3 +585,21 @@
 .card:hover img {
   bottom: 20px;
 }
+
+
+/*----------------Work with ME-----------------*/
+.footer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; /* Makes the section take up the full viewport height */
+    padding: 20px;
+    background-color: #434343;
+    color:#f7c873;
+}
+.footer-para{
+  width: 800px;
+  font-size: 30px;
+}
