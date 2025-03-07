@@ -6,75 +6,263 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropdown Example</title>
     <link rel="stylesheet" href="dropdown-styles.css">
-    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="some_work.css">
+    <link rel="stylesheet" href="card-style.css">
     <script src="https://kit.fontawesome.com/d67a8bcaae.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <navbar class=" dropdown">
-        <button class="dropdown-button">=</button>
-        <div class="dropdown-content">
-            <a href="#">Home</a>
-            <a href="#">My Self</a>
-            <a href="#">My Work</a>
-            <a href="#">Contact</a>
+    <!-- banner -->
+    <section>
+        <navbar class=" dropdown">
+            <button class="dropdown-button">=</button>
+            <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">My Self</a>
+                <a href="#">My Work</a>
+                <a href="#">Contact</a>
+            </div>
+        </navbar>
+        <div>
+            <img src="/assets/logo.png" alt="" class="logo">
         </div>
-    </navbar>
-    <div>
-        <img src="/assets/logo.png" alt="" class="logo">
-    </div>
-    <div class="fixed-container">
-        <i class="fa-brands fa-github fixed-button"></i>
-        <i class="fa-solid fa-envelope fixed-button"></i>
-        <i class="fa-brands fa-linkedin-in fixed-button"></i>
-        <i class="fa-brands fa-facebook fixed-button"></i>
-    </div>
-
-    <div class="home-section">
-        <div class="left">
-            <h1 class="h1-name">G'day, I'm <br> Md Adlul Islam</h1>
-            <main class="animation-container">
-                <section class="animation">
-                    <div class="first">
-                        <div>Software Engineer</div>
-                    </div>
-                    <div class="second">
-                        <div>Web Developer</div>
-                    </div>
-                    <div class="third">
-                        <div>Software Engineer</div>
-                    </div>
-                </section>
-            </main>
-            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure officia blanditiis ut
-                nesciunt animi
-                deleniti esse voluptatibus fugit at porro. Facilis voluptate id, hic quisquam autem necessitatibus porro
-                eum
-                praesentium libero, voluptates alias! Numquam eaque autem cum ut voluptas quam id debitis eligendi iusto
-                tempore
-                est dolorem unde, possimus odio.</p>
+        <div class="fixed-container">
+            <i class="fa-brands fa-github fixed-button"></i>
+            <i class="fa-solid fa-envelope fixed-button"></i>
+            <i class="fa-brands fa-linkedin-in fixed-button"></i>
+            <i class="fa-brands fa-facebook fixed-button"></i>
         </div>
-        <div class="right">
-            <div class="banner">
-                <div class="product">
-                    <div class="soda" style="--url: url(assets/bg.png)">
-                    </div>
-                    <div class="soda" style="--url: url(assets/bg2.png)">
+        <div class="home-section">
+            <div class="left">
+                <h1 class="h1-name">G'day, I'm <br> Md Adlul Islam</h1>
+                <main class="animation-container">
+                    <section class="animation">
+                        <div class="first">
+                            <div>Software Engineer</div>
+                        </div>
+                        <div class="second">
+                            <div>Web Developer</div>
+                        </div>
+                        <div class="third">
+                            <div>Software Engineer</div>
+                        </div>
+                    </section>
+                </main>
+                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure officia blanditiis ut
+                    nesciunt animi
+                    deleniti esse voluptatibus fugit at porro. Facilis voluptate id, hic quisquam autem necessitatibus
+                    porro
+                    eum
+                    praesentium libero, voluptates alias! Numquam eaque autem cum ut voluptas quam id debitis eligendi
+                    iusto
+                    tempore
+                    est dolorem unde, possimus odio.</p>
+            </div>
+            <div class="right">
+                <div class="banner">
+                    <div class="product">
+                        <div class="soda" style="--url: url(assets/bg.png)">
+                        </div>
+                        <div class="soda" style="--url: url(assets/bg2.png)">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+
+    <!-- About MYSELFT -->
+    <section class="self-section">
+        <div class="wrap animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="h1-text animate slide-left pop delay-4">About ME</h1>
+                    <p class="p-text animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Md
+                        <em>Borno</em>
+                    </p>
+                </div>
+                <div class="image-content animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset p-text" src="/assets/borno.jpg" alt="" />Trees are woody
+                    perennial plants that are a member of the kingdom <em>Plantae</em>. All species of trees are grouped
+                    by their genus, family, and order. This helps make identifying and studying trees easier.</p>
+                <p class="p-text">Apart from providing oxygen for the planet and beauty when they bloom or turn color,
+                    trees are very
+                    useful. Certain species of hardwood and softwood trees are excellent for timber, making furniture,
+                    and paper.</p>
+                <p class="p-text">When managed properly, trees are a good source of renewable energy and construction
+                    material.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3rd section -->
+    <div class="eight">
+        <h1 class="h1-title">Resume</h1>
+    </div>
+    <section class="resume-section">
+        <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education </p>
+        </div>
+        <div class=" tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Frontend</span><br>Good knowledge of writing code using HTML, CSS, Tailwind
+                    CSS, JavaScript, React . </li>
+                <li><span>Backend</span><br>Node.js, Express.js, Firebase</li>
+                <li><span>Database</span><br>MongoDB, SQL , Oracle </li>
+                <li><span>Programming Language</span><br> C++, Java, JavaScript </li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>C/C++</span><br>Experienced in hacker Rank</li>
+                <li><span>JAVA</span><br>Making Java Project For AIUB Course</li>
+                <li><span>Web Development</span><br>Work on Project</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>BSC</span><br>American Internatinal University of Bangladesh</li>
+                <li><span>HSC-2019</span><br>Kushtia Govt College,Kushtia</li>
+                <li><span>SSC-2017</span><br>Naogaon Zilla School, Naogaon</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!--  -->
+    <div class="eight">
+        <h1 class="h1-title">Things I've Worked on,<br> Some of Them
+        </h1>
+    </div>
+    <section class="card-container">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+          </div>
+          <!--  -->
+          <div id="London" class="tabcontent">
+            <!--  -->
+            <div class="canvas">
+              <div class="container-box">
+                <div class="card-item rgb maths">
+                  <div class="card-image"></div>
+                  <div class="card-description">
+                    <h2 class="card-title">Maths</h2>
+                    <strong>Mathematics</strong> includes the study of such topics as
+                    numbers (arithmetic and number theory), formulas and related
+                    structures (algebra), shapes and spaces in which they are contained
+                    (geometry), and quantities and their changes (calculus and
+                    analysis). There is no general consensus about its exact scope or
+                    epistemological status.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+      
+          <div id="Paris" class="tabcontent">
+            <!--  -->
+            <div class="canvas">
+              <div class="container-box">
+                <div class="card-item rgb maths">
+                  <div class="card-image"></div>
+                  <div class="card-description">
+                    <h2 class="card-title">Maths</h2>
+                    <strong>Mathematics</strong> includes the study of such topics as
+                    numbers (arithmetic and number theory), formulas and related
+                    structures (algebra), shapes and spaces in which they are contained
+                    (geometry), and quantities and their changes (calculus and
+                    analysis). There is no general consensus about its exact scope or
+                    epistemological status.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+      
+          <div id="Tokyo" class="tabcontent">
+            <!--  -->
+            <div class="canvas">
+              <div class="container-box">
+                <div class="card-item rgb maths">
+                  <div class="card-image"></div>
+                  <div class="card-description">
+                    <h2 class="card-title">Maths</h2>
+                    <strong>Mathematics</strong> includes the study of such topics as
+                    numbers (arithmetic and number theory), formulas and related
+                    structures (algebra), shapes and spaces in which they are contained
+                    (geometry), and quantities and their changes (calculus and
+                    analysis). There is no general consensus about its exact scope or
+                    epistemological status.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+      
+        </section>
+
+
+
+        <section>
+            <div class="eight">
+                <h1 class="h1-title">Things I've Worked on,<br> Some of Them
+                </h1>
+            </div>
+
+        </section>
+      
+        <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            if (evt) evt.currentTarget.className += " active";
+          }
+        
+          // Set London as default tab on page load
+          document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".tablinks").click();
+          });
+        </script>
+      
+        <script src="vanilla-tilt.min.js"></script>
+        <script>
+          VanillaTilt.init(document.querySelectorAll('.card-item'), {
+            glare: true,
+            reverse: true,
+            'max-glare': 0.2,
+          });
+        </script>
+      
     
-   
 </body>
+
 
 </html>
 
-
-
-<!-- <div>
-    
-</div> -->
