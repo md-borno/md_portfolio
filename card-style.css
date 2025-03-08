@@ -4,11 +4,13 @@
   --rColor: #ff0000;
   --gColor: #008000;
   --bColor: #0000ff;
-  --yinColor: #111111;
+  /* --yinColor: #111111;  */
+  --yinColor: #131b1e; 
   --borderRadius: 20px;
-  background-color:#111111;
+  background-color: #131b1e;
+  margin-left: -10px;
+  margin-right: -8.3px;
 }
-
 .canvas {
   position: 100vw;
   height: 100vh;
@@ -112,6 +114,8 @@
   color: var(--yangColor);
   margin: 25px;
   transform: translateZ(30px);
+  /* width:250px; */
+  /* border-radius: 0px 0px 20px 20px; */
 }
 
 .card-title {
@@ -148,7 +152,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #111111;
+  background-color: #131b1e;
 
 }
 .tablinks{
