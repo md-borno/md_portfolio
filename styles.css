@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px; /* Space between icons */
+    z-index: 9999;
 }
 
 /* Styling for the fixed icons */
@@ -646,4 +647,29 @@ section{
 .footer-para{
   width: fit-content;
   font-size: 30px;
+}
+
+/* Prevent horizontal scroll */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Scroll animation */
+.scroll-left, .scroll-right {
+  opacity: 0;
+  position: relative;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.scroll-left {
+  transform: translateX(-100vw); /* Start off-screen but without causing overflow */
+}
+
+.scroll-right {
+  transform: translateX(100vw); /* Start off-screen but without causing overflow */
+}
+
+.scroll-left.visible, .scroll-right.visible {
+  transform: translateX(0);
+  opacity: 1;
 }
