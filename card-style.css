@@ -105,7 +105,19 @@
 }
 
 .maths .card-image {
-  background-image: url('images/math.jpg');
+  background-image: url('assets/project/moviepedia.jpg');
+}
+.maths2 .card-image {
+  background-image: url('assets/project/spotify_clone.jpg');
+}
+.maths3 .card-image {
+  background-image: url('assets/project/weekend.jpg');
+}
+.maths4 .card-image {
+  background-image: url('assets/project/Datascience.png');
+}
+.maths5 .card-image {
+  background-image: url('assets/project/language-impl.png');
 }
 
 
@@ -114,13 +126,12 @@
   color: var(--yangColor);
   margin: 25px;
   transform: translateZ(30px);
-  /* width:250px; */
-  /* border-radius: 0px 0px 20px 20px; */
+  margin-top: -10px;
 }
 
 .card-title {
   font-size: 2em;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .js-tilt-glare {
@@ -187,4 +198,26 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+
+/* card button */
+.card-btn-github{
+  font-size: 20px;
+  padding: 10px;
+}
+.card-btn-demo{
+  background-color: #cf205d;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.project-item{
+  color:#66c5cb;
+  border: solid #66c5cb;
+  padding: 3px;
+  font-size: 9px;
 }
